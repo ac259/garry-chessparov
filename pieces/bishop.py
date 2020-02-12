@@ -1,6 +1,6 @@
 from pieces.piece import Piece
 
-class Bishop(piece):
+class Bishop(Piece):
 	color = None
 	position = None
 

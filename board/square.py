@@ -8,7 +8,8 @@ class Square:
 	pieceOnSquare = None
 	squareCoord = None
 
-	def __init__(self, piece, coordinate):
-		self.pieceOnSquare = piece
+	def __init__(self, coordinate, piece):
 		self.squareCoord = coordinate
+		self.pieceOnSquare = piece
+		
 		

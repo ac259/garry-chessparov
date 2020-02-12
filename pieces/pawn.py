@@ -1,6 +1,6 @@
 from pieces.piece import Piece
 
-class Pawn(piece):
+class Pawn(Piece):
 
 	def __init__(self, color, position):
 		self.color = color

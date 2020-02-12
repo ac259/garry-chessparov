@@ -1,6 +1,6 @@
 from pieces.piece import Piece
 
-class King(piece):
+class King(Piece):
 
 	def __init__(self, color, position):
 		self.color = color
